@@ -1,4 +1,4 @@
-GPUImageWageFilter
+GPUImageWaveFilter
 ==================
 
 A subclass of GPUImageFilter with a parameter named "normalizedPhase". Change the value will adjust the image center phase. It is normalized, so the period will be 1.0 instead of 2π.
