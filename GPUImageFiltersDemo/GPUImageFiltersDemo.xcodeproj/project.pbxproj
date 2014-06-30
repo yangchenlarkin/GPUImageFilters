@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00BE7DD19619EBE00EDCB52 /* GPUImageWaveFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D00BE7DC19619EBE00EDCB52 /* GPUImageWaveFilter.m */; };
 		D045057C195E9AFC0061C136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045057B195E9AFC0061C136 /* Foundation.framework */; };
 		D045057E195E9AFC0061C136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045057D195E9AFC0061C136 /* CoreGraphics.framework */; };
 		D0450580195E9AFC0061C136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045057F195E9AFC0061C136 /* UIKit.framework */; };
@@ -186,7 +187,6 @@
 		D0450992195E9BB10061C136 /* GPUImageMovieWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D04508E9195E9BB10061C136 /* GPUImageMovieWriter.m */; };
 		D0450993195E9BB10061C136 /* GPUImagePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = D04508EB195E9BB10061C136 /* GPUImagePicture.m */; };
 		D0450994195E9BB10061C136 /* GPUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D04508ED195E9BB10061C136 /* GPUImageView.m */; };
-		D0450997195E9BE60061C136 /* GPUImageWaveFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0450996195E9BE60061C136 /* GPUImageWaveFilter.m */; };
 		D045099A195E9DEB0061C136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0450999195E9DEB0061C136 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -201,20 +201,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D0450578195E9AFC0061C136 /* GPUImageWaveFilterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageWaveFilterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00BE7DB19619EBE00EDCB52 /* GPUImageWaveFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageWaveFilter.h; sourceTree = "<group>"; };
+		D00BE7DC19619EBE00EDCB52 /* GPUImageWaveFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageWaveFilter.m; sourceTree = "<group>"; };
+		D0450578195E9AFC0061C136 /* GPUImageFiltersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageFiltersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D045057B195E9AFC0061C136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D045057D195E9AFC0061C136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D045057F195E9AFC0061C136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D0450583195E9AFC0061C136 /* GPUImageWaveFilterDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUImageWaveFilterDemo-Info.plist"; sourceTree = "<group>"; };
+		D0450583195E9AFC0061C136 /* GPUImageFiltersDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUImageFiltersDemo-Info.plist"; sourceTree = "<group>"; };
 		D0450585195E9AFC0061C136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0450587195E9AFC0061C136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D0450589195E9AFC0061C136 /* GPUImageWaveFilterDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPUImageWaveFilterDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D0450589195E9AFC0061C136 /* GPUImageFiltersDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPUImageFiltersDemo-Prefix.pch"; sourceTree = "<group>"; };
 		D045058A195E9AFC0061C136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D045058B195E9AFC0061C136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D045058D195E9AFC0061C136 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D0450593195E9AFC0061C136 /* GPUImageWaveFilterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageWaveFilterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0450593195E9AFC0061C136 /* GPUImageFiltersDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageFiltersDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0450594195E9AFC0061C136 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D045059C195E9AFC0061C136 /* GPUImageWaveFilterDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUImageWaveFilterDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D045059C195E9AFC0061C136 /* GPUImageFiltersDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUImageFiltersDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D045059E195E9AFC0061C136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D04505A0195E9AFC0061C136 /* GPUImageWaveFilterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageWaveFilterDemoTests.m; sourceTree = "<group>"; };
 		D04507A2195E9BB00061C136 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
@@ -547,8 +549,6 @@
 		D04508EB195E9BB10061C136 /* GPUImagePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImagePicture.m; sourceTree = "<group>"; };
 		D04508EC195E9BB10061C136 /* GPUImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageView.h; sourceTree = "<group>"; };
 		D04508ED195E9BB10061C136 /* GPUImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageView.m; sourceTree = "<group>"; };
-		D0450995195E9BE60061C136 /* GPUImageWaveFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageWaveFilter.h; sourceTree = "<group>"; };
-		D0450996195E9BE60061C136 /* GPUImageWaveFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageWaveFilter.m; sourceTree = "<group>"; };
 		D0450998195E9DEB0061C136 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D0450999195E9DEB0061C136 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -577,11 +577,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00BE7DA19619EBE00EDCB52 /* GPUImageFilters */ = {
+			isa = PBXGroup;
+			children = (
+				D00BE7DB19619EBE00EDCB52 /* GPUImageWaveFilter.h */,
+				D00BE7DC19619EBE00EDCB52 /* GPUImageWaveFilter.m */,
+			);
+			name = GPUImageFilters;
+			path = ../GPUImageFilters;
+			sourceTree = "<group>";
+		};
 		D045056F195E9AFC0061C136 = {
 			isa = PBXGroup;
 			children = (
+				D00BE7DA19619EBE00EDCB52 /* GPUImageFilters */,
 				D04507A0195E9BB00061C136 /* GPUImage */,
-				D04506F8195E9B0B0061C136 /* GPUImageWaveFilter */,
 				D0450581195E9AFC0061C136 /* GPUImageWaveFilterDemo */,
 				D045059A195E9AFC0061C136 /* GPUImageWaveFilterDemoTests */,
 				D045057A195E9AFC0061C136 /* Frameworks */,
@@ -592,8 +602,8 @@
 		D0450579195E9AFC0061C136 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0450578195E9AFC0061C136 /* GPUImageWaveFilterDemo.app */,
-				D0450593195E9AFC0061C136 /* GPUImageWaveFilterDemoTests.xctest */,
+				D0450578195E9AFC0061C136 /* GPUImageFiltersDemo.app */,
+				D0450593195E9AFC0061C136 /* GPUImageFiltersDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -625,10 +635,10 @@
 		D0450582195E9AFC0061C136 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0450583195E9AFC0061C136 /* GPUImageWaveFilterDemo-Info.plist */,
+				D0450583195E9AFC0061C136 /* GPUImageFiltersDemo-Info.plist */,
 				D0450584195E9AFC0061C136 /* InfoPlist.strings */,
 				D0450587195E9AFC0061C136 /* main.m */,
-				D0450589195E9AFC0061C136 /* GPUImageWaveFilterDemo-Prefix.pch */,
+				D0450589195E9AFC0061C136 /* GPUImageFiltersDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -645,20 +655,10 @@
 		D045059B195E9AFC0061C136 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D045059C195E9AFC0061C136 /* GPUImageWaveFilterDemoTests-Info.plist */,
+				D045059C195E9AFC0061C136 /* GPUImageFiltersDemoTests-Info.plist */,
 				D045059D195E9AFC0061C136 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D04506F8195E9B0B0061C136 /* GPUImageWaveFilter */ = {
-			isa = PBXGroup;
-			children = (
-				D0450995195E9BE60061C136 /* GPUImageWaveFilter.h */,
-				D0450996195E9BE60061C136 /* GPUImageWaveFilter.m */,
-			);
-			name = GPUImageWaveFilter;
-			path = ../GPUImageWaveFilter;
 			sourceTree = "<group>";
 		};
 		D04507A0195E9BB00061C136 /* GPUImage */ = {
@@ -1026,9 +1026,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0450577195E9AFC0061C136 /* GPUImageWaveFilterDemo */ = {
+		D0450577195E9AFC0061C136 /* GPUImageFiltersDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04505A4195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageWaveFilterDemo" */;
+			buildConfigurationList = D04505A4195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageFiltersDemo" */;
 			buildPhases = (
 				D0450574195E9AFC0061C136 /* Sources */,
 				D0450575195E9AFC0061C136 /* Frameworks */,
@@ -1038,14 +1038,14 @@
 			);
 			dependencies = (
 			);
-			name = GPUImageWaveFilterDemo;
+			name = GPUImageFiltersDemo;
 			productName = GPUImageWaveFilterDemo;
-			productReference = D0450578195E9AFC0061C136 /* GPUImageWaveFilterDemo.app */;
+			productReference = D0450578195E9AFC0061C136 /* GPUImageFiltersDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0450592195E9AFC0061C136 /* GPUImageWaveFilterDemoTests */ = {
+		D0450592195E9AFC0061C136 /* GPUImageFiltersDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04505A7195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageWaveFilterDemoTests" */;
+			buildConfigurationList = D04505A7195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageFiltersDemoTests" */;
 			buildPhases = (
 				D045058F195E9AFC0061C136 /* Sources */,
 				D0450590195E9AFC0061C136 /* Frameworks */,
@@ -1056,9 +1056,9 @@
 			dependencies = (
 				D0450599195E9AFC0061C136 /* PBXTargetDependency */,
 			);
-			name = GPUImageWaveFilterDemoTests;
+			name = GPUImageFiltersDemoTests;
 			productName = GPUImageWaveFilterDemoTests;
-			productReference = D0450593195E9AFC0061C136 /* GPUImageWaveFilterDemoTests.xctest */;
+			productReference = D0450593195E9AFC0061C136 /* GPUImageFiltersDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1075,7 +1075,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D0450573195E9AFC0061C136 /* Build configuration list for PBXProject "GPUImageWaveFilterDemo" */;
+			buildConfigurationList = D0450573195E9AFC0061C136 /* Build configuration list for PBXProject "GPUImageFiltersDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1087,8 +1087,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0450577195E9AFC0061C136 /* GPUImageWaveFilterDemo */,
-				D0450592195E9AFC0061C136 /* GPUImageWaveFilterDemoTests */,
+				D0450577195E9AFC0061C136 /* GPUImageFiltersDemo */,
+				D0450592195E9AFC0061C136 /* GPUImageFiltersDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1144,7 +1144,6 @@
 				D04508F7195E9BB10061C136 /* GPUImageAddBlendFilter.m in Sources */,
 				D0450954195E9BB10061C136 /* GPUImageOutput.m in Sources */,
 				D045097E195E9BB10061C136 /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
-				D0450997195E9BE60061C136 /* GPUImageWaveFilter.m in Sources */,
 				D045092B195E9BB10061C136 /* GPUImageHazeFilter.m in Sources */,
 				D045091E195E9BB10061C136 /* GPUImageFilterGroup.m in Sources */,
 				D045097B195E9BB10061C136 /* GPUImageTextureOutput.m in Sources */,
@@ -1183,6 +1182,7 @@
 				D045096A195E9BB10061C136 /* GPUImageSepiaFilter.m in Sources */,
 				D0450904195E9BB10061C136 /* GPUImageChromaKeyFilter.m in Sources */,
 				D0450911195E9BB10061C136 /* GPUImageDifferenceBlendFilter.m in Sources */,
+				D00BE7DD19619EBE00EDCB52 /* GPUImageWaveFilter.m in Sources */,
 				D0450980195E9BB10061C136 /* GPUImageTiltShiftFilter.m in Sources */,
 				D045090E195E9BB10061C136 /* GPUImageCrosshairGenerator.m in Sources */,
 				D045092D195E9BB10061C136 /* GPUImageHighPassFilter.m in Sources */,
@@ -1305,7 +1305,7 @@
 /* Begin PBXTargetDependency section */
 		D0450599195E9AFC0061C136 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D0450577195E9AFC0061C136 /* GPUImageWaveFilterDemo */;
+			target = D0450577195E9AFC0061C136 /* GPUImageFiltersDemo */;
 			targetProxy = D0450598195E9AFC0061C136 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1406,10 +1406,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GPUImageWaveFilterDemo/GPUImageWaveFilterDemo-Prefix.pch";
-				INFOPLIST_FILE = "GPUImageWaveFilterDemo/GPUImageWaveFilterDemo-Info.plist";
+				GCC_PREFIX_HEADER = "GPUImageWaveFilterDemo/GPUImageFiltersDemo-Prefix.pch";
+				INFOPLIST_FILE = "GPUImageWaveFilterDemo/GPUImageFiltersDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GPUImageFiltersDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1420,10 +1420,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GPUImageWaveFilterDemo/GPUImageWaveFilterDemo-Prefix.pch";
-				INFOPLIST_FILE = "GPUImageWaveFilterDemo/GPUImageWaveFilterDemo-Info.plist";
+				GCC_PREFIX_HEADER = "GPUImageWaveFilterDemo/GPUImageFiltersDemo-Prefix.pch";
+				INFOPLIST_FILE = "GPUImageWaveFilterDemo/GPUImageFiltersDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GPUImageFiltersDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1443,8 +1443,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "GPUImageWaveFilterDemoTests/GPUImageWaveFilterDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "GPUImageWaveFilterDemoTests/GPUImageFiltersDemoTests-Info.plist";
+				PRODUCT_NAME = GPUImageFiltersDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1461,8 +1461,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUImageWaveFilterDemo/GPUImageWaveFilterDemo-Prefix.pch";
-				INFOPLIST_FILE = "GPUImageWaveFilterDemoTests/GPUImageWaveFilterDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "GPUImageWaveFilterDemoTests/GPUImageFiltersDemoTests-Info.plist";
+				PRODUCT_NAME = GPUImageFiltersDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1471,7 +1471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0450573195E9AFC0061C136 /* Build configuration list for PBXProject "GPUImageWaveFilterDemo" */ = {
+		D0450573195E9AFC0061C136 /* Build configuration list for PBXProject "GPUImageFiltersDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04505A2195E9AFD0061C136 /* Debug */,
@@ -1480,21 +1480,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04505A4195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageWaveFilterDemo" */ = {
+		D04505A4195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageFiltersDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04505A5195E9AFD0061C136 /* Debug */,
 				D04505A6195E9AFD0061C136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D04505A7195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageWaveFilterDemoTests" */ = {
+		D04505A7195E9AFD0061C136 /* Build configuration list for PBXNativeTarget "GPUImageFiltersDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04505A8195E9AFD0061C136 /* Debug */,
 				D04505A9195E9AFD0061C136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

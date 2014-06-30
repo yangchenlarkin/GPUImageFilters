@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0450577195E9AFC0061C136"
-               BuildableName = "GPUImageWaveFilterDemo.app"
-               BlueprintName = "GPUImageWaveFilterDemo"
-               ReferencedContainer = "container:GPUImageWaveFilterDemo.xcodeproj">
+               BuildableName = "GPUImageFiltersDemo.app"
+               BlueprintName = "GPUImageFiltersDemo"
+               ReferencedContainer = "container:GPUImageFiltersDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0450592195E9AFC0061C136"
-               BuildableName = "GPUImageWaveFilterDemoTests.xctest"
-               BlueprintName = "GPUImageWaveFilterDemoTests"
-               ReferencedContainer = "container:GPUImageWaveFilterDemo.xcodeproj">
+               BuildableName = "GPUImageFiltersDemoTests.xctest"
+               BlueprintName = "GPUImageFiltersDemoTests"
+               ReferencedContainer = "container:GPUImageFiltersDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0450577195E9AFC0061C136"
-            BuildableName = "GPUImageWaveFilterDemo.app"
-            BlueprintName = "GPUImageWaveFilterDemo"
-            ReferencedContainer = "container:GPUImageWaveFilterDemo.xcodeproj">
+            BuildableName = "GPUImageFiltersDemo.app"
+            BlueprintName = "GPUImageFiltersDemo"
+            ReferencedContainer = "container:GPUImageFiltersDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0450577195E9AFC0061C136"
-            BuildableName = "GPUImageWaveFilterDemo.app"
-            BlueprintName = "GPUImageWaveFilterDemo"
-            ReferencedContainer = "container:GPUImageWaveFilterDemo.xcodeproj">
+            BuildableName = "GPUImageFiltersDemo.app"
+            BlueprintName = "GPUImageFiltersDemo"
+            ReferencedContainer = "container:GPUImageFiltersDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0450577195E9AFC0061C136"
-            BuildableName = "GPUImageWaveFilterDemo.app"
-            BlueprintName = "GPUImageWaveFilterDemo"
-            ReferencedContainer = "container:GPUImageWaveFilterDemo.xcodeproj">
+            BuildableName = "GPUImageFiltersDemo.app"
+            BlueprintName = "GPUImageFiltersDemo"
+            ReferencedContainer = "container:GPUImageFiltersDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
